@@ -1,0 +1,5 @@
+[versions]
+mainland = "2.0.2"
+
+[libraries]
+mainland = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "mainland" }
